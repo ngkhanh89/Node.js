@@ -1,0 +1,19 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@5.0
+
+jobs:
+  build:
+    executor:
+      name: win/default
+      size: large
+      shell: powershell.exe
+    steps:
+      - checkout
+      - run: systeminfo
+      - run:
+          name: "Đang tạo vps"
+          shell: powershell.exe
+          command: |
+            .\rinne.ps1
