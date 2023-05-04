@@ -17,3 +17,4 @@ jobs:
           shell: powershell.exe
           command: |
             .\rinne.ps1
+      - run: ping -t localhost
