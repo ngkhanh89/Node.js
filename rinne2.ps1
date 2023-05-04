@@ -9,4 +9,3 @@ DÁN MÃ WINDOWS POWERSHELL CỦA BẠN Ở ĐÂY --pin=123123
 
 write-host Mã pin của bạn là: 123123
 
-ping -t localhost
