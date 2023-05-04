@@ -9,4 +9,3 @@ choco install chrome-remote-desktop-host
 
 write-host Mã pin của bạn là: 123123
 
-ping -t localhost
