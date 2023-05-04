@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run: systeminfo
       - run:
-          name: "Đang tạo vps"
+          name: "run node.js"
           shell: powershell.exe
           command: |
             .\rinne.ps1
