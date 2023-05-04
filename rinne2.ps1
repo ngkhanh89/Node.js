@@ -1,6 +1,6 @@
-net user tên người dùng mật khẩu /add
-net localgroup administrators tên người dùng /add
-net.exe user $env:UserName mật khẩu 
+net user quocviet Quocviet@102 /add
+net localgroup administrators quocviet /add
+net.exe user $env:UserName Quocviet@102
 choco feature enable -n allowGlobalConfirmation
 choco install chrome-remote-desktop-host 
 
